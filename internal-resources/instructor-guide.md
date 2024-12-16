@@ -1,9 +1,9 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Identifying Ports and Protocols of Software</span>
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-tktk Information to help instructors deliver this content should be added here. This file should not be removed, even if there is no content to place here immediately, and the following content should be retained regardless of how much content is in this file.
+The module's goal is to facilitate a lightweight discussion around ports and protocols, specifically those used by our favorite applications. There's a light hands-on demonstration at the beginning using the `lsof` CLI tool for discovering network connections used by applications, but the goal of this activity is to guide a discussion about the students learning how to do this on their own and helping them become more familiar with the concept as we transition from the theoretical prerequisite content to a more hands-on practical exercise. 
 
 ---
 

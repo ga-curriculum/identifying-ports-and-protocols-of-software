@@ -1,11 +1,12 @@
 <h1>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Identifying Ports and Protocols of Software</span>
   <span class="subhead">Release Notes</span>
 </h1>
 
-## Version 1.0 - Updates from legacy content
+## Version 1.0 - Creation of New Module
 
-This release modularizes the legacy [tktk previous lecture name] lecture and provides some other minor updates detailed below. Updates are provided here at the module level, but all subsequent updates should be documented at the lesson level.
+This release creates the Identifying Ports and Protocols of Software Discussion as a new module for our curriculum.
+
 
 ### Release details
 
