@@ -11,8 +11,8 @@ This discussion module aims to help students familiarize themselves with ports a
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Discussion](../discussion/README.md) | 30 mins | Discuss how to identify ports and protocols of common software applications. |
-| **Total content**                     | 30 mins |                                                                              |
+| [Discover Ports and Protocols](../discover-ports-and-protocols/README.md) | 30 mins | Discuss how to identify ports and protocols of common software applications. |
+| **Total content**                                                         | 30 mins |                                                                              |
 
 ## References
 
