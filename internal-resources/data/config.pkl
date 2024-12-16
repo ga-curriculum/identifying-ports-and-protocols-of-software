@@ -18,15 +18,15 @@ repo {
 
 courses {
   new {
-    name = "fallback"
+    name = "itb"
     microlessons {
-      mls.discussion
+      mls.discoverPortsAndProtocols
     }
   }
   new {
-    name = "identifying-ports-and-protocols-of-software"
+    name = "fallback"
     microlessons {
-      mls.discussion
+      mls.discoverPortsAndProtocols
     }
   }
 }

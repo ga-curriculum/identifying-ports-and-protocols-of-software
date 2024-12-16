@@ -3,7 +3,9 @@
   <span class="subhead">Instructor Guide</span>
 </h1>
 
-The module's goal is to facilitate a lightweight discussion around ports and protocols, specifically those used by our favorite applications. There's a light hands-on demonstration at the beginning using the `lsof` CLI tool for discovering network connections used by applications, but the goal of this activity is to guide a discussion about the students learning how to do this on their own and helping them become more familiar with the concept as we transition from the theoretical prerequisite content to a more hands-on practical exercise. 
+This module aims to facilitate a lightweight discussion around ports and protocols, specifically those used by our favorite applications.
+
+There's a light hands-on demonstration at the beginning using the `lsof` or `netstat` CLI tool for discovering network connections used by applications. The goal of this activity is to guide a discussion about the students learning how to do this on their own and helping them become more familiar with the concept as we transition from the theoretical prerequisite content to a more hands-on practical exercise.
 
 ---
 

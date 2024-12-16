@@ -5,4 +5,4 @@
 
 ## Lesson references
 
-None
+None.

@@ -2,9 +2,9 @@ import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/univer
 
 // Add microlessons here, in the order they should be delivered
 
-discussion = new Template.Microlesson {
-  friendlyName = "Discussion"
-  dirName = "discussion"
+discoverPortsAndProtocols = new Template.Microlesson {
+  friendlyName = "Discover Ports and Protocols"
+  dirName = "discover-ports-and-protocols"
   type = "Content"
   videoUrl = ""
 }

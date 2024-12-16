@@ -14,14 +14,14 @@
   },
   "courses": [
     {
-      "name": "fallback",
+      "name": "itb",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Discussion",
-          "dirName": "discussion",
+          "friendlyName": "Discover Ports and Protocols",
+          "dirName": "discover-ports-and-protocols",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
@@ -53,14 +53,14 @@
       "isActivityTimeShown": true
     },
     {
-      "name": "identifying-ports-and-protocols-of-software",
+      "name": "fallback",
       "courseAcronym": "",
       "courseFullName": "",
       "logoUrl": "",
       "microlessons": [
         {
-          "friendlyName": "Discussion",
-          "dirName": "discussion",
+          "friendlyName": "Discover Ports and Protocols",
+          "dirName": "discover-ports-and-protocols",
           "type": "Content",
           "skill": "",
           "learningObjective": "",
