@@ -28,6 +28,16 @@
           "videoUrl": "",
           "videoLengthInMinutes": 0,
           "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Intro to Nmap",
+          "dirName": "intro-to-nmap",
+          "type": "Level Up content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
         }
       ],
       "isHeaderShown": true,
@@ -61,6 +71,16 @@
         {
           "friendlyName": "Discover Ports and Protocols",
           "dirName": "discover-ports-and-protocols",
+          "type": "Content",
+          "skill": "",
+          "learningObjective": "",
+          "videoUrl": "",
+          "videoLengthInMinutes": 0,
+          "estimatedDeliveryTimeInMinutes": 0
+        },
+        {
+          "friendlyName": "Intro to Nmap",
+          "dirName": "intro-to-nmap",
           "type": "Content",
           "skill": "",
           "learningObjective": "",

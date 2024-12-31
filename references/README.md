@@ -5,4 +5,7 @@
 
 ## Lesson references
 
-None.
+- [Nmap](https://nmap.org/)
+- [Nmap - Downloading Nmap - Microsoft Windows Binaries](https://nmap.org/download.html#windows)
+- [Nmap - Documentation](https://nmap.org/docs.html)
+- [Nmap - Nmap Network Scanning Book](https://nmap.org/book/)

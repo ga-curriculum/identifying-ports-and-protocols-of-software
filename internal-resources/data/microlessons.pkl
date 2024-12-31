@@ -8,3 +8,10 @@ discoverPortsAndProtocols = new Template.Microlesson {
   type = "Content"
   videoUrl = ""
 }
+
+introToNmap = new Template.Microlesson {
+  friendlyName = "Intro to Nmap"
+  dirName = "intro-to-nmap"
+  type = "Content"
+  videoUrl = ""
+}
