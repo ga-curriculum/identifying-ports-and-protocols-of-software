@@ -14,6 +14,12 @@ This discussion module aims to help students familiarize themselves with ports a
 | [Discover Ports and Protocols](../discover-ports-and-protocols/README.md) | 30 mins | Discuss how to identify ports and protocols of common software applications. |
 | **Total content**                                                         | 30 mins |                                                                              |
 
+## Level Up content
+
+| Lesson | Est. Delivery Time | Skills |
+| ------ |:------------------:| ------ |
+| [Intro to Nmap](../intro-to-nmap/README.md) | 30 mins | Use Nmap to identify hosts and services on a network. |
+
 ## References
 
 📖 [Reference Materials](../references/README.md)
