@@ -3,13 +3,13 @@
   <span class="subhead">Intro to Nmap</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to use Nmap to identify hosts and services on a network.
+**Learning objective:** By the end of this lesson, students will be able to execute network scans to identify active hosts and services and analyze the scan results to assess network security.
 
 ## Advanced network scanning with Nmap
 
-[Nmap](https://nmap.org/) is an versatile open source tool used for to learn more about a local network and to discover security weaknesses. It can help you identify open ports, running services, and the protocols in use. Let's discuss how to get started with Nmap.
+[Nmap](https://nmap.org/) is a versatile open-source tool used to learn more about a local network and to discover security weaknesses. It can help you identify open ports, running services, and the protocols in use. Let's discuss how to get started with Nmap.
 
-> ⚠️ Nmap is a powerful tool that can be used for both good and bad purposes. Make sure you have permission to scan the network you're targeting, and be aware that scanning a network without permission can be illegal.
+> ⚠️ Nmap is a powerful tool that can be used for both good and bad purposes. Ensure you have permission to scan the device/network you're targeting and be aware that scanning a network without permission can be illegal.
 
 ## Installation
 
@@ -17,9 +17,13 @@ Nmap is available for Windows, Mac, and Linux. Skip to the relevant operating sy
 
 ### Windows
 
-Navigate to the [Nmap download page](https://nmap.org/download.html#windows) and download the latest stable release. It will be labeled **Latest stable release self-installer:** and be followed by a link for `nmap-<version>-setup.exe`. Run the installer and follow the on-screen instructions use all the default selections provided.
+Navigate to the [Nmap download page](https://nmap.org/download.html#windows) and download the latest stable release shown outlined in red in the screenshot below:
 
-Confirm the installation was successful by opening Command Prompt as the administrator and running `nmap --version`.
+![The Nmap windows install page, with the download link - nmap-7.95-setup.exe - outlined in red.](./assets/nmap-windows-install.png)
+
+The exact version may be different than shown in the screenshot - that's ok, as long as the link resembles this format: `nmap-<version>-setup.exe`. Run the installer and follow the on-screen instructions using all the default selections provided.
+
+Confirm the installation was successful by opening Command Prompt as the administrator and running the `nmap --version` command on the command prompt.
 
 ### Linux
 
@@ -29,17 +33,17 @@ To install Nmap, open your Terminal application. Then run the following command:
 apt-get install nmap
 ```
 
-After the installation is complete, you can confirm it worked by running `nmap --version` in the Terminal.
+After the installation, you can confirm it worked by running the `nmap --version` command in your Terminal.
 
 ### macOS
 
-To install Nmap, open your Terminal application, and run the following command:
+To install Nmap, open your Terminal application and run the following command:
 
 ```bash
 brew install nmap
 ```
 
-After the installation is complete, you can confirm it worked by running `nmap --version` in the Terminal.
+After the installation, you can confirm it worked by running the `nmap --version` command in your Terminal.
 
 ## Running a simple scan
 
@@ -53,9 +57,11 @@ This command will scan the host `scanme.nmap.org` and provide you with a list of
 
 ![Nmap scan output from scanme.nmap.org](./assets/nmap-basic-scan.png)
 
-We can see a variety of services running on this host, including an SSH server on port 22, and an HTTP server on port 80.
+We can see a variety of services running on this host, including an SSH server on port 22 and an HTTP server on port 80.
 
-Nmap has a variety of connection strategies we can use. The strategy we used above is a *Connect* scan, the simplest and most common type of scan. It's slow and likely to be detected by intrusion detection systems, so it's not the best choice for stealthy scans though. Faster and more technical scans are available, but may require administrator access on your system. Let's try one now - the command will change depending on your OS.
+Nmap has a variety of connection strategies we can use. The strategy we used above is a *Connect* scan, the most basic type. It's slow and likely to be detected by intrusion detection systems, so it's not the best choice for stealthy scans.
+
+Faster and more technical scans are available but may require administrator access to your system. Let's try one now - the command will change depending on your OS.
 
 ### Windows
 
@@ -79,7 +85,7 @@ Regardless of your OS, you should see an output like this if you were able to us
 
 ![Nmap scan output from scanme.nmap.org after running a SYN scan.](./assets/nmap-syn-scan.png)
 
-This *SYN* scan, is a lot faster than the *Connect* scan, right? And we largely get the same information! It's also less likely to be detected by some intrusion detection systems because it doesn't complete a full TCP handshake.
+This *SYN* scan is faster than the *Connect* scan, right? And we essentially get the same information! It's also less likely to be detected by some intrusion detection systems because it doesn't complete a full TCP handshake.
 
 ## More advanced scans
 
@@ -97,17 +103,17 @@ You'll see an output like this:
 
 ![Nmap scan output from scanme.nmap.org after running a service version scan.](./assets/nmap-ser-ver-scan.png)
 
-Here we can see the version of the SSH server running on port 22 (OpenSSH v6.6.1p1 for Ubuntu), and the version of the HTTP server running on port 80 (Apache v2.4.7 for Ubuntu).
+Here, we can see the version of the SSH server running on port 22 (OpenSSH v6.6.1p1 for Ubuntu) and the version of the HTTP server running on port 80 (Apache v2.4.7 for Ubuntu).
 
 ### Aggressive scan
 
-An even more advanced scan can be done with the `-A` flag. This **agressive** scan enables OS detection, version detection, script scanning, and traceroute. Let's try it out:
+An even more advanced scan can be done with the `-A` flag. This **aggressive** scan enables OS detection, version detection, script scanning, and traceroute. Let's try it out:
 
 ```bash
 nmap -A scanme.nmap.org
 ```
 
-This scan will take much longer to complete (a few minutes), so grab a quick drink or stretch while you wait. When it's done you'll get a lot more information about the target host. You'll see an output like this:
+This scan will take much longer to complete (a few minutes), so grab a quick drink or stretch while you wait. You'll get a lot more information about the target host when it's done. You'll see an output like this:
 
 ![Nmap scan output from scanme.nmap.org after running an aggressive scan.](./assets/nmap-aggressive-scan.png)
 
@@ -166,20 +172,20 @@ This will output a lot more information about the scan as it runs, including the
   <span class="minutes"></span>
 </div>
 
-Here's some additional exercises you can try to get more familiar with Nmap:
+Here are some additional exercises you can try to get more familiar with Nmap:
 
 Using a network and devices you have permission to scan, try running some of the Nmap commands we've discussed in this lesson. Scan a device on your local network to see what services are running and what ports are open.
 
-If you can, try scanning multiple types of devices - like a Windows machine, a Mac, and a Linux machine, or even a phone. You'll see that the results can vary based on the operating system and the services running on the device.
+If you can, try scanning multiple devices - like a Windows machine, a Mac, a Linux machine, or even a phone. You'll see that the results can vary based on the operating system and the services running on the device.
 
 Start with the basic scan we ran at the beginning of the lesson, and then try some of the more advanced scans we discussed. Experiment with different flags and options to see how they affect the scan results.
 
 Use the [Nmap documentation](https://nmap.org/docs.html) to learn more about additional flags and options you can use with Nmap.
 
-If you're the owner of your network and all of the devices on it you could even try scanning the entire network to see what devices are connected and what services are running on them!
+If you're the owner of your network and all the devices on it, you could even try scanning the entire network to see what devices are connected and what services are running on them!
 
 ## Wrap up
 
-As we've demonstrated, Nmap is a powerful tool for identifying hosts and services on a network. It can be used for a variety of purposes, from identifying security vulnerabilities to troubleshooting network issues. By learning how to use Nmap effectively, you can become a more effective network administrator and security professional.
+As we've demonstrated, Nmap is a powerful tool for identifying hosts and services on a network. It can be used for various purposes, from identifying security vulnerabilities to troubleshooting network issues. You can become a more effective network administrator and security professional by learning to use Nmap effectively.
 
-Really want more? Check out the [Nmap Network Scanning book](https://nmap.org/book/) for a deep dive into the capabilities of Nmap.
+If you think you're ready for a lot more, check out the [Nmap Network Scanning book](https://nmap.org/book/) for a deep dive into the capabilities of Nmap.
