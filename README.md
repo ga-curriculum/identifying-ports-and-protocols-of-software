@@ -30,6 +30,7 @@ This discussion module aims to help students familiarize themselves with ports a
 
 - [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/itb.html)
 - [ITS - IT Basics Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/its.html)
+- [ITS - IT Basics Short Course - Baylor](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/its-baylor.html)
 - [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/fallback.html)
 
 ### Resources
