@@ -124,7 +124,7 @@ This gets us even more detailed information about the services running on the ho
 You can add more flags to your Nmap command to get different types of output. For example, the `-oN` flag will output the scan results to a specified file in normal format. Let's try it out:
 
 ```bash
-nmap -oN -sT scan.txt scanme.nmap.org
+nmap -sT -oN scan.txt scanme.nmap.org
 ```
 
 This will save the scan results to a file named `scan.txt` in the current directory. You can open the file in a text editor to view the results.
