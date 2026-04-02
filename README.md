@@ -28,10 +28,10 @@ This discussion module aims to help students familiarize themselves with ports a
 
 ### Course landing pages
 
-- [ITB - IT Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/itb.html)
-- [ITS - IT Basics Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/its.html)
-- [ITS - IT Basics Short Course - Baylor](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/its-baylor.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/identifying-ports-and-protocols-of-software/canvas-landing-pages/fallback.html)
+- [ITB - IT Bootcamp](https://ga-curriculum.github.io/identifying-ports-and-protocols-of-software/canvas-landing-pages/itb.html)
+- [ITS - IT Basics Short Course](https://ga-curriculum.github.io/identifying-ports-and-protocols-of-software/canvas-landing-pages/its.html)
+- [ITS - IT Basics Short Course - Baylor](https://ga-curriculum.github.io/identifying-ports-and-protocols-of-software/canvas-landing-pages/its-baylor.html)
+- [Fallback](https://ga-curriculum.github.io/identifying-ports-and-protocols-of-software/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -43,4 +43,4 @@ This discussion module aims to help students familiarize themselves with ports a
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
